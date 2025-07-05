@@ -38,5 +38,20 @@ Built using **Clean Architecture** principles with CQRS, MediatR, and a modular 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/pricefeed-api.git
-cd pricefeed-api
+git clone https://github.com/aleksandar-copic/PriceFeed.git
+cd PriceFeed/PriceFeed/PriceFeed.API
+```
+
+2. **Restore NuGet Packages**
+```bash
+dotnet restore
+```
+
+3. **Run the Project**
+```bash
+dotnet run
+```
+
+4. **Open Swagger**
+Open Swagger at http://localhost:5213/swagger/index.html
+---
